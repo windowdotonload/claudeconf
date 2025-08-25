@@ -1,0 +1,38 @@
+{
+  "name": "claudeconf",
+  "version": "1.0.36",
+  "description": "A CLI tool to read claude.conf configuration files",
+  "main": "lib/index.js",
+  "bin": {
+    "claudeconf": "./lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/windowdotonload/claudeconf"
+  },
+  "files": [
+    "lib/",
+    "bin/",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "rolldown -c"
+  },
+  "keywords": [
+    "claude",
+    "config",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^24.1.1",
+    "rolldown": "1.0.0-beta.27"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "dotenv-parse-variables": "^2.0.0"
+  }
+}
